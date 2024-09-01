@@ -5,6 +5,7 @@
 #include "Struct_g.h"
 #include "Draw.h"
 #include "Game.h"
+#include "Sounds.h"
 
 /* Movement and collision */
 
@@ -75,8 +76,8 @@ void ballPaddleDetect(Ball_t* ball)
 
 void ballMove(Ball_t* ball)
 {
-    int paddle_detect_x;
-    int paddle_detect_y;
+    //int paddle_detect_x;
+    //int paddle_detect_y;
 
     ball->prev_pos.x = ball->current_pos.x;
     ball->prev_pos.y = ball->current_pos.y;
